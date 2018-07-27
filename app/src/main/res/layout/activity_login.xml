@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.angel.activity.SocialMediaLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/linkedin_loginbtn_img"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_linkedin_login_btn"/>
+
+        <TextView
+            android:id="@+id/activity_login_google_sign_in_btn"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/ic_google_plus"
+            android:background="#d34836"
+            android:text="Sign in with Google Plus"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</RelativeLayout>

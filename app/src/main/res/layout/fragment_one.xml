@@ -1,0 +1,374 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.angel.fragment.AnxietyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/anxietyTv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:text="@string/feeling_nervous" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/anxeity_radioGroup_1">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not At All"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/nervous_radioButton_1"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Several Days"
+                    android:id="@+id/nervous_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More Than Half the Days"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/nervous_radioButton_3"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nearly Every Day"
+                    android:id="@+id/nervous_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--2nd-->
+            <TextView
+                android:id="@+id/anxietyTv2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="@string/control_worrying" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/anxeity_radioGroup_2">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not At All"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/control_worrying_radioButton_1"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Several Days"
+                    android:id="@+id/control_worrying_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More Than Half the Days"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/control_worrying_radioButton_3"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nearly Every Day"
+                    android:id="@+id/control_worrying_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+            <!--3rd-->
+            <TextView
+                android:id="@+id/anxietyTv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="@string/worrying_about_different_things" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/anxeity_radioGroup_3">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not At All"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/different_things_radioButton_1"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Several Days"
+                    android:id="@+id/different_things_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More Than Half the Days"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/different_things_radioButton_3"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nearly Every Day"
+                    android:id="@+id/different_things_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+            <!--4th-->
+            <TextView
+                android:id="@+id/anxietyTv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/trouble_relaxing" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/anxeity_radioGroup_4">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not At All"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/trouble_relaxing_radioButton1"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Several Days"
+                    android:id="@+id/trouble_relaxing_radioButton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More Than Half the Days"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/trouble_relaxing_radioButton3"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nearly Every Day"
+                    android:id="@+id/trouble_relaxing_radioButton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--5th-->
+            <TextView
+                android:id="@+id/anxietyTv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/being_restless" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/anxeity_radioGroup_5">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not At All"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/being_restless_radiobutton1"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Several Days"
+                    android:id="@+id/being_restless_radiobutton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More Than Half the Days"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/being_restless_radiobutton3"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nearly Every Day"
+                    android:id="@+id/being_restless_radiobutton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--6th-->
+            <TextView
+                android:id="@+id/anxietyTv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/awful_might_happen" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/anxeity_radioGroup_6">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not At All"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/awful_might_happen_radioButton1"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Several Days"
+                    android:id="@+id/awful_might_happen_radioButton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More Than Half the Days"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/awful_might_happen_radioButton3"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nearly Every Day"
+                    android:id="@+id/awful_might_happen_radioButton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="14dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/fragment_anixety_submit"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/white"
+                android:text="Submit"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

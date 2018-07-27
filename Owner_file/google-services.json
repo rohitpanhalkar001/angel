@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "732707987764",
+    "firebase_url": "https://angelapp-e81d6.firebaseio.com",
+    "project_id": "angelapp-e81d6",
+    "storage_bucket": "angelapp-e81d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732707987764:android:2e33945ecffae6e4",
+        "android_client_info": {
+          "package_name": "com.angel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732707987764-p95d4163j7ch708rg5cfdruijgm7vick.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "732707987764-p95d4163j7ch708rg5cfdruijgm7vick.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmPS2kGPt2JV356xj9Ge_0VWmSKla7rMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

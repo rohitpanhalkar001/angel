@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Angel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feeling_nervous">1) Feeling nervous, anxious or on edge</string>
+    <string name="control_worrying">2) Being unable to stop or control worrying</string>
+    <string name="worrying_about_different_things">3) Worrying too much about different things</string>
+    <string name="trouble_relaxing">4) Having trouble relaxing</string>
+    <string name="being_restless">5) Being so restless that it is hard to sit still</string>
+    <string name="awful_might_happen">6) Feeling afraid, as if something awful might happen</string>
+
+
+    <!--Depression-->
+    <string name="dont_bother_me">1) I was bothered by things that usually don’t bother me.</string>
+    <string name="appetite_was_poor">2) I did not feel like eating; my appetite was poor.</string>
+    <string name="depressed__sad_even_assistance">3) I always feel like depressed and sad even assistance from family and friends.</string>
+
+    <string name="good_as_other_people">4) I felt that I was just as good as other people</string>
+
+    <string name="concentration_on_what_I_was_doing">5) I had trouble keeping my concentration on what I was doing.</string>
+    <string name="depressed">6) I felt depressed</string>
+    <string name="everything_I_did_was_an_effort">7) I felt that everything I did was an effort.</string>
+    <string name="future">8) I felt hopeful about the future.</string>
+    <string name="failure">9) I thought my life had been a failure</string>
+    <string name="fearful">10) I felt fearful.</string>
+
+    <string name="restless">11) My sleep was restless.</string>
+
+    <string name="happy">12) I was happy.</string>
+
+
+    <string name="usual">13) I talked less than usual.</string>
+    <string name="lonely">14) I felt lonely.</string>
+    <string name="unfriendly">15) People were unfriendly.</string>
+    <string name="life">16) I enjoyed life.</string>
+    <string name="spells">17) I had crying spells.</string>
+    <string name="sad">18) I felt sad.</string>
+    <string name="disliked">19) I felt that people disliked me.</string>
+    <string name="get_going">20) I could not get going.</string>
+    <string name="rejectionneverousness">Rejection\nNeverousness</string>
+
+
+</resources>

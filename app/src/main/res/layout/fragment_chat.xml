@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+
+    tools:context="com.angel.activity.AngelChatActivity">
+
+        <LinearLayout
+            android:background="#ffffff"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="53dp">
+
+                <ListView
+                    android:layout_gravity="bottom"
+                    android:id="@+id/userChatListLv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:stackFromBottom="true"
+                    android:layout_marginBottom="5dp">
+
+                </ListView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+                <EditText
+                    android:id="@+id/fragment_chat_messageEd"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="0.15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_background_rounuded_conners_layout"/>
+                <ImageView
+                    android:id="@+id/fragment_chat_sendBtnImg"
+                    android:layout_weight="0.85"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_send_button"/>
+        </LinearLayout>
+
+</FrameLayout>

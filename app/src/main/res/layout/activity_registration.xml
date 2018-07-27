@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:text="Create You Account Here"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="40dp"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_weight="0.65"
+                        android:paddingLeft="20dp"
+                        android:text="First Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/activity_sign_in_edit_first_name"
+                        android:layout_weight="0.35"
+                        android:layout_marginRight="20dp"
+                        android:paddingLeft="8dp"
+                        android:hint="Enter first name"
+                        android:background="@color/app_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_weight="0.65"
+                        android:paddingLeft="20dp"
+                        android:text="Last Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/activity_sign_in_edit_last_name"
+                        android:layout_weight="0.35"
+                        android:paddingLeft="8dp"
+                        android:hint="Enter Last name"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/app_grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_weight="0.65"
+                        android:paddingLeft="20dp"
+                        android:text="Email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/activity_sign_in_edit_email"
+                        android:layout_weight="0.35"
+                        android:paddingLeft="8dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:inputType="textEmailAddress"
+                        android:hint="Enter Email"
+                        android:background="@color/app_grey"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <TextView
+                        android:paddingLeft="20dp"
+                        android:text="Password"
+                        android:layout_weight="0.65"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/activity_sign_in_edit_new_password"
+                        android:layout_weight="0.35"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/app_grey"
+                        android:paddingLeft="8dp"
+                        android:inputType="textPassword"
+                        android:hint="********"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_weight="0.65"
+                        android:paddingLeft="20dp"
+                        android:text="Confirm Password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/activity_sign_in_edit_confirm_password"
+                        android:layout_weight="0.35"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/app_grey"
+                        android:inputType="textPassword"
+                        android:paddingLeft="8dp"
+                        android:hint="********"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/activity_sign_in_btn_email_sign_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="15sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="SignUp"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="15sp"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,1182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.angel.fragment.AnxietyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/depression_fagr_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:text="@string/dont_bother_me" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_1">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/dont_bother_me_radioButton_1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/dont_bother_me_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/dont_bother_me_radioButton_3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/dont_bother_me_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--2nd-->
+            <TextView
+                android:id="@+id/depression_fagr_tv2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="@string/appetite_was_poor" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_2">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/appetite_was_poor_radioButton_1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/appetite_was_poor_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/appetite_was_poor_radioButton_3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/appetite_was_poor_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+            <!--3rd-->
+            <TextView
+                android:id="@+id/depression_fagr_tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="@string/depressed__sad_even_assistance" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_3">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/depressed__sad_even_assistance_radioButton_1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/depressed__sad_even_assistance_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/depressed__sad_even_assistance_radioButton_3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/depressed__sad_even_assistance_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+            <!--4th-->
+            <TextView
+                android:id="@+id/depression_fagr_tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/good_as_other_people" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_4">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/good_as_other_people_radioButton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/good_as_other_people_radioButton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/good_as_other_people_radioButton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/good_as_other_people_radioButton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--5th-->
+            <TextView
+                android:id="@+id/depression_fagr_tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/concentration_on_what_I_was_doing" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_5">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/concentration_on_what_I_was_doing_radiobutton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/concentration_on_what_I_was_doing_radiobutton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/concentration_on_what_I_was_doing_radiobutton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/concentration_on_what_I_was_doing_radiobutton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--6th-->
+            <TextView
+                android:id="@+id/depression_fagr_tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/depressed" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_6">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/depressed_radioButton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/depressed_radioButton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/depressed_radioButton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/depressed_radioButton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/depression_fagr_tv7"
+
+                android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:text="@string/everything_I_did_was_an_effort" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_7">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/everything_I_did_was_an_effort_radioButton_1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/everything_I_did_was_an_effort_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/everything_I_did_was_an_effort_radioButton_3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/everything_I_did_was_an_effort_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--2nd-->
+            <TextView
+                android:id="@+id/depression_fagr_tv8"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="@string/future" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_8">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/future_radioButton_1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/future_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/future_radioButton_3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/future_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+            <!--3rd-->
+            <TextView
+                android:id="@+id/depression_fagr_tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="@string/failure" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_9">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/failure_radioButton_1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/failure_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/failure_radioButton_3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/failure_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+            <!--4th-->
+            <TextView
+                android:id="@+id/depression_fagr_tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/fearful" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_10">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/fearful_radioButton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/fearful_radioButton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/fearful_radioButton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/fearful_radioButton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--5th-->
+            <TextView
+                android:id="@+id/depression_fagr_tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/restless" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_11">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/restless_radiobutton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/restless_radiobutton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/restless_radiobutton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/restless_radiobutton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--6th-->
+            <TextView
+                android:id="@+id/depression_fagr_tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/happy" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_12">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/happy_radioButton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/happy_radioButton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/happy_radioButton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/happy_radioButton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/depression_fagr_tv13"
+                android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:text="@string/usual" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_13">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/usual_radioButton_1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/usual_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/usual_radioButton_3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/usual_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--2nd-->
+            <TextView
+                android:id="@+id/depression_fagr_tv14"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="@string/lonely" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_14">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/lonely_radioButton_1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/lonely_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/lonely_radioButton_3"
+                    android:checked="false"
+                    android:textSize="14dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/lonely_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+            <!--3rd-->
+            <TextView
+                android:id="@+id/depression_fagr_tv15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="@string/unfriendly" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_15">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/unfriendly_radioButton_1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/unfriendly_radioButton_2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="1dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/unfriendly_radioButton_3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/unfriendly_radioButton_4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+            <!--4th-->
+            <TextView
+                android:id="@+id/depression_fagr_tv16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/life" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_16">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/life_radioButton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/life_radioButton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/life_radioButton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/life_radioButton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--5th-->
+            <TextView
+                android:id="@+id/depression_fagr_tv17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/spells" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_17">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/spells_radiobutton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/spells_radiobutton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/spells_radiobutton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/spells_radiobutton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--6th-->
+            <TextView
+                android:id="@+id/depression_fagr_tv18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/sad" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_18">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/sad_radioButton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/sad_radioButton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/sad_radioButton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/sad_radioButton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/depression_fagr_tv19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/disliked" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_19">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/disliked_radiobutton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/disliked_radiobutton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/disliked_radiobutton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/disliked_radiobutton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <!--6th-->
+            <TextView
+                android:id="@+id/depression_fagr_tv20"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/get_going" />
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:weightSum="1"
+                android:id="@+id/depression_radioGroup_20">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rarely or None of the Time (Less than 1 day)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/depression_radioButton1"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some or a Little of the Time (1-2 days)"
+                    android:id="@+id/depression_radioButton2"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occasionally or a Moderate Amount of the Time (3-4 days)"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/depression_radioButton3"
+                    android:checked="false"
+                    android:textSize="13dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" All of the Time (5-7 days)"
+                    android:id="@+id/depression_radioButton4"
+                    android:layout_marginLeft="10dp"
+                    android:checked="false"
+                    android:textSize="13dp"
+                    android:layout_weight="0.13" />
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/fragment_depression_submit"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/white"
+                android:text="Submit"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
